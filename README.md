@@ -12,7 +12,7 @@ Ushbu laboratoriya **Broken Access Control / Privilege Escalation** mavzusiga te
 
 Avval PortSwigger Web Security Academy saytida **User role can be modified in user profile** laboratoriyasi ochildi.
 
-![Lab page](screenshots/01-lab-page.png)
+![Lab page](01-lab-page.png)
 
 ---
 
