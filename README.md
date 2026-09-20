@@ -20,11 +20,11 @@ Avval PortSwigger Web Security Academy saytida **User role can be modified in us
 
 Laboratoriya Burp Suite ichidagi brauzer orqali ochildi. `Proxy -> HTTP history` bo‘limida saytga yuborilayotgan HTTP so‘rovlar kuzatildi.
 
-![Burp HTTP history](screenshots/02-burp-http-history.png)
+![Burp HTTP history](02-burp-http-history.png)
 
 HTTP history orqali laboratoriyaga tegishli so‘rovlar ajratib olindi.
 
-![Burp HTTP history request](screenshots/03-burp-http-history-request.png)
+![Burp HTTP history request](03-burp-http-history-request.png)
 
 ---
 
@@ -32,11 +32,11 @@ HTTP history orqali laboratoriyaga tegishli so‘rovlar ajratib olindi.
 
 Laboratoriya do‘kon sahifasi ochildi.
 
-![Lab shop](screenshots/04-lab-shop.png)
+![Lab shop](04-lab-shop.png)
 
 Keyin laboratoriya tomonidan berilgan oddiy foydalanuvchi akkaunti orqali tizimga kirildi.
 
-![Login page](screenshots/05-login-page.png)
+![Login page](05-login-page.png)
 
 ---
 
@@ -50,7 +50,7 @@ POST /my-account/change-email
 
 Bu so‘rov `Proxy -> HTTP history` ichida topildi.
 
-![Change email request](screenshots/06-change-email-request.png)
+![Change email request](06-change-email-request.png)
 
 Javobdagi JSON ma’lumotlar orasida foydalanuvchining roli ham qaytarilayotgani ko‘rindi:
 
@@ -71,11 +71,11 @@ Bu yerda `roleid` foydalanuvchi huquq darajasini ko‘rsatadi.
 
 `/my-account/change-email` so‘rovi ustida o‘ng tugma bosilib **Send to Repeater** tanlandi.
 
-![Send to Repeater](screenshots/07-send-to-repeater.png)
+![Send to Repeater](07-send-to-repeater.png)
 
 Repeater orqali so‘rovni qayta yuborish va uning body qismini tahrirlash imkoniyati olindi.
 
-![Original request in Repeater](screenshots/08-repeater-original-request.png)
+![Original request in Repeater](08-repeater-original-request.png)
 
 ---
 
@@ -94,7 +94,7 @@ Misol:
 
 So‘rov qayta yuborilgandan keyin server foydalanuvchi rolini yangiladi.
 
-![Modified roleid](screenshots/09-roleid-modified.png)
+![Modified roleid](09-roleid-modified.png)
 
 ---
 
@@ -102,7 +102,7 @@ So‘rov qayta yuborilgandan keyin server foydalanuvchi rolini yangiladi.
 
 Brauzerga qaytib `My account` sahifasi yangilanganda menyuda yangi **Admin panel** havolasi paydo bo‘ldi.
 
-![Admin panel visible](screenshots/10-admin-panel-visible.png)
+![Admin panel visible](10-admin-panel-visible.png)
 
 Bu foydalanuvchining huquqi oddiy foydalanuvchidan administrator darajasiga o‘zgarganini ko‘rsatdi.
 
@@ -112,7 +112,7 @@ Bu foydalanuvchining huquqi oddiy foydalanuvchidan administrator darajasiga o‘
 
 Administrator paneli ochildi va laboratoriya vazifasida ko‘rsatilgan foydalanuvchi o‘chirildi. Shundan so‘ng PortSwigger laboratoriyani **Solved** holatiga o‘tkazdi.
 
-![Lab solved](screenshots/11-lab-solved.png)
+![Lab solved](11-lab-solved.png)
 
 ---
 
